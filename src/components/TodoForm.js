@@ -15,8 +15,9 @@ class TodoForm extends Component {
           ref={
             (node) => { input = node }
           }
-          placeholder="agregar tareas" />
+          placeholder="agregar notas" />
         <button > Add </button>
+        <button > Cancel </button>
       </form >
     </div>)
   }
